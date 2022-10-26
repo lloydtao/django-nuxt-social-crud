@@ -40,6 +40,7 @@
     "jest-environment-jsdom": "^29.1.2",
     "postcss": "^8.4.17",
     "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
     "vue-jest": "^3.0.4"
   }
 }
