@@ -1,13 +1,13 @@
 <!-- Please remove this file from your project -->
 <template>
   <div
-    class="relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0"
+    class="items-top relative flex min-h-screen justify-center bg-gray-100 sm:items-center sm:pt-0"
   >
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css"
       rel="stylesheet"
     />
-    <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-4xl sm:px-6 lg:px-8">
       <a
         class="flex justify-center pt-8 sm:pt-0"
         href="https://nuxtjs.org"
@@ -50,8 +50,8 @@
           />
         </svg>
       </a>
-      <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg p-6">
-        <h2 class="text-2xl leading-7 font-semibold">
+      <div class="mt-8 overflow-hidden bg-white p-6 shadow sm:rounded-lg">
+        <h2 class="text-2xl font-semibold leading-7">
           Welcome to your Nuxt Application
         </h2>
         <p class="mt-3 text-gray-600">
@@ -64,21 +64,21 @@
           >, whether you are new or have previous experience with the
           framework.<br />
         </p>
-        <p class="mt-4 pt-4 text-gray-800 border-t border-dashed">
+        <p class="mt-4 border-t border-dashed pt-4 text-gray-800">
           To get started, remove
-          <code class="bg-gray-100 text-sm p-1 rounded border"
+          <code class="rounded border bg-gray-100 p-1 text-sm"
             >components/Tutorial.vue</code
           >
           and start coding in
-          <code class="bg-gray-100 text-sm p-1 rounded border"
+          <code class="rounded border bg-gray-100 p-1 text-sm"
             >pages/index.vue</code
           >. Have fun!
         </p>
       </div>
-      <div class="flex justify-center pt-4 space-x-2">
+      <div class="flex justify-center space-x-2 pt-4">
         <a href="https://github.com/nuxt/nuxt.js" target="_blank"
           ><svg
-            class="w-6 h-6 text-gray-600 hover:text-gray-800 button--github"
+            class="button--github h-6 w-6 text-gray-600 hover:text-gray-800"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             aria-hidden="true"
@@ -95,7 +95,7 @@
         ></a>
         <a href="https://twitter.com/nuxt_js" target="_blank"
           ><svg
-            class="w-6 h-6 text-gray-600 hover:text-gray-800"
+            class="h-6 w-6 text-gray-600 hover:text-gray-800"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             aria-hidden="true"
