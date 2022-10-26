@@ -118,6 +118,13 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 
+
+# Django user authentication settings
+# https://docs.djangoproject.com/en/3.2/topics/auth/customizing/#auth-custom-user
+
+AUTH_USER_MODEL = "accounts.User"
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
